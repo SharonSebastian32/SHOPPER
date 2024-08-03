@@ -1,4 +1,4 @@
-import "./popular.css";
+import "../popular/popular.css";
 import dataProduct from "../../assets/data";
 import ItemCard from "../../Components/items/item.jsx";
 const popular = () => {
@@ -6,7 +6,7 @@ const popular = () => {
     <div className="popular">
       <h1>POPULAR IN WOMEN</h1>
       <hr />
-      <div className="popularItem">
+      <div className="popular-item">
         {dataProduct.map((item, i) => {
           return (
             <ItemCard

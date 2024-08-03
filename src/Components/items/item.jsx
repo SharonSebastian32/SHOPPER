@@ -1,4 +1,5 @@
-import "./item.css";
+import '../../Components/items/item.css'
+
 const ItemCard = (props) => {
   return (
     <div className="item">
