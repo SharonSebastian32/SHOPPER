@@ -2,7 +2,8 @@ import Hero from "../Components/Hero/Hero";
 import Popular from "../Components/popular/popular";
 import Offers from "../Components/offers/offers";
 import NewCollection from "../Components/New Collection/newCollection";
-
+import NewsLetter from "../Components/NewsLetter/newsLetter";
+ 
 const Shopitem = () => {
   return (
     <div>
@@ -10,7 +11,8 @@ const Shopitem = () => {
       <Popular />
       <Offers />
       <NewCollection />
-    </div>
+      <NewsLetter />
+     </div>
   );
 };
 
